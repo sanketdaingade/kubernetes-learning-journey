@@ -1,0 +1,17 @@
+# AWS Credentials
+*.pem
+*.ppk
+.aws/
+
+# Kubernetes Credentials
+admin.conf
+kubeconfig
+.kube/
+
+# Secrets
+.env
+*.secret
+
+# Terraform State
+*.tfstate
+*.tfstate.backup
